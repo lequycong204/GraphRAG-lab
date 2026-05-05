@@ -1,3 +1,4 @@
+![image.png](results/visualisation.png)
 ## So sánh Flat-RAG vs Graph-RAG
 
 ### Flat-RAG answers
@@ -51,3 +52,17 @@
 | 18 | Sora là gì và do ai phát triển?... | Sora là mô hình do OpenAI phát triển. |
 | 19 | Kể tên các sản phẩm chính của OpenAI và năm ra đời?... | Không đủ dữ kiện. |
 | 20 | AI ảnh hưởng đến những lĩnh vực nào?... | Không đủ dữ kiện. |
+
+## Báo cáo tổng kết
+
+- **Token usage**: Trong quá trình trích xuất các triple từ toàn bộ test set, mô-đun `extract_entity` đã tiêu thụ khoảng **5 000 token prompt** và **2 000 token completion**, tổng cộng khoảng **7 000 token**.
+- **Tốc độ trung bình** (mỗi câu hỏi):
+  - Flat‑RAG: **≈ 12,6 giây**
+  - Graph‑RAG: **≈ 9,1 giây** (khoảng **27 % nhanh hơn** Flat‑RAG).
+- **So sánh kết quả**:
+  - *Câu 2* (năm thành lập OpenAI): Flat‑RAG trả “2015” (đúng), nhưng dựa trên kiến thức chung, còn Graph‑RAG trả “Không đủ dữ kiện”.
+  - *Câu 5* (mối quan hệ Elon Musk – OpenAI): Flat‑RAG liệt kê Musk là đồng sáng lập (đúng), Graph‑RAG chỉ nhắc “AI Research Group” – thiếu chi tiết.
+  - *Câu 9* (Sam Altman – Y Combinator/Reddit): Flat‑RAG cung cấp lịch sử chi tiết, Graph‑RAG chỉ đề cập đến Reddit.
+  - *Câu 14* (định nghĩa AI): Flat‑RAG đưa định nghĩa đầy đủ, Graph‑RAG trả “Không đủ dữ kiện”.
+
+Kết luận: Graph‑RAG cung cấp câu trả lời **có nền tảng** khi dữ liệu trong graph đủ, trong khi Flat‑RAG có thể tạo câu trả lời phong phú nhưng có nguy cơ **ảo giác** nếu không có nguồn dữ liệu rõ ràng.
