@@ -86,7 +86,13 @@ def parse_llm_json(content: str) -> list[dict[str, str]]:
     return parsed
 
 
+# Global token counters
+TOTAL_PROMPT_TOKENS = 0
+TOTAL_COMPLETION_TOKENS = 0
+
+
 def extract_triples_from_text(client: OpenAI, text: str) -> list[dict[str, str]]:
+    global TOTAL_PROMPT_TOKENS, TOTAL_COMPLETION_TOKENS
     response = client.chat.completions.create(
         model=get_model_name(),
         temperature=0,
@@ -103,6 +109,10 @@ def extract_triples_from_text(client: OpenAI, text: str) -> list[dict[str, str]]
             },
         ],
     )
+    usage = getattr(response, "usage", None)
+    if usage:
+        TOTAL_PROMPT_TOKENS += usage.prompt_tokens or 0
+        TOTAL_COMPLETION_TOKENS += usage.completion_tokens or 0
     return parse_llm_json(response.choices[0].message.content or "{}")
 
 
@@ -114,6 +124,10 @@ def load_chunks(chunks_file: Path) -> list[dict[str, Any]]:
 
 
 def extract_triples_from_chunks(chunks_file: Path) -> list[dict[str, Any]]:
+    global TOTAL_PROMPT_TOKENS, TOTAL_COMPLETION_TOKENS
+    TOTAL_PROMPT_TOKENS = 0
+    TOTAL_COMPLETION_TOKENS = 0
+
     client = get_client()
     all_triples: list[dict[str, Any]] = []
 
@@ -160,7 +174,17 @@ def deduplicate_triples(triples: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique
 
 
+def print_token_usage() -> None:
+    total = TOTAL_PROMPT_TOKENS + TOTAL_COMPLETION_TOKENS
+    print(
+        f"\n>>> Token usage: {total:,} total "
+        f"(prompt: {TOTAL_PROMPT_TOKENS:,} / completion: {TOTAL_COMPLETION_TOKENS:,})"
+    )
+
+
 def main() -> None:
+    global TOTAL_PROMPT_TOKENS, TOTAL_COMPLETION_TOKENS
+
     parser = argparse.ArgumentParser(description="Extract triples from chunk JSON file.")
     parser.add_argument(
         "--chunks-file",
@@ -181,6 +205,7 @@ def main() -> None:
     triples = extract_triples_from_chunks(chunks_file)
     output_file.write_text(json.dumps(triples, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Extracted {len(triples)} triples -> {output_file}")
+    print_token_usage()
 
 
 if __name__ == "__main__":

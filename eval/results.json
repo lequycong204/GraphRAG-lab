@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "OpenAI được thành lập bởi những ai?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "OpenAI được thành lập vào năm 2015 bởi Sam Altman, Greg Brockman, Reid Hoffman, Jessica Livingston, Ilya Sutskever, Elon Musk và Peter Thiel (cùng với một số người và tổ chức khác).",
+      "time": "26.34s"
+    },
+    "graph_rag": {
+      "answer": "OpenAI được thành lập bởi Ilya Sutskever và Greg Brockman.",
+      "time": "11.16s"
+    }
+  },
+  {
+    "id": 2,
+    "question": "Năm nào OpenAI được thành lập?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "OpenAI được thành lập vào năm 2015.",
+      "time": "7.68s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện.",
+      "time": "3.10s"
+    }
+  },
+  {
+    "id": 3,
+    "question": "Sam Altman làm việc tại những tổ chức nào?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Sam Altman đã làm việc tại các tổ chức sau:\n\n- **OpenAI** – Giám đốc điều hành (CEO) (cũng từng là giám đốc điều hành của OpenAI trước khi bị sa thải vào ngày 17/11/2023).  \n- **Y Combinator** – Chủ t...",
+      "time": "9.65s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện để trả lời câu hỏi này.",
+      "time": "4.11s"
+    }
+  },
+  {
+    "id": 4,
+    "question": "Những công ty nào do Sam Altman sáng lập?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Sam Altman là người đồng sáng lập các công ty sau:\n\n- **Loopt** (2005)  \n- **Worldcoin** (2020)  \n- **OpenAI** (được thành lập năm 2015)  ",
+      "time": "8.99s"
+    },
+    "graph_rag": {
+      "answer": "Worldcoin (được Sam Altman đồng sáng lập).",
+      "time": "5.72s"
+    }
+  },
+  {
+    "id": 5,
+    "question": "Elon Musk có liên quan đến tổ chức nào trong lĩnh vực AI?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Elon Musk là một trong những người sáng lập và từng là thành viên hội đồng quản trị của OpenAI.",
+      "time": "7.76s"
+    },
+    "graph_rag": {
+      "answer": "Elon Musk là đồng sáng lập của **AI Research Group**.",
+      "time": "4.92s"
+    }
+  },
+  {
+    "id": 6,
+    "question": "OpenAI có hợp tác với những công ty nào?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "OpenAI đã hợp tác với các công ty sau:\n\n- **Microsoft** (đầu tư, tích hợp ChatGPT vào Bing, Edge, Microsoft 365 và sử dụng Azure)  \n- **Apple** (đưa tính năng ChatGPT vào Apple Intelligence và iPhone)...",
+      "time": "9.57s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện để xác định OpenAI đã hợp tác với công ty nào.",
+      "time": "2.45s"
+    }
+  },
+  {
+    "id": 7,
+    "question": "Microsoft đầu tư bao nhiêu vào OpenAI?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Microsoft đã đầu tư 1 tỷ USD vào OpenAI vào năm 2019 và tiếp tục đầu tư 10 tỷ USD vào tháng 1 năm 2023.",
+      "time": "8.73s"
+    },
+    "graph_rag": {
+      "answer": "Microsoft đã đầu tư khoảng 10 tỷ USD vào OpenAI.",
+      "time": "5.77s"
+    }
+  },
+  {
+    "id": 8,
+    "question": "Sản phẩm nào của OpenAI được tích hợp vào Apple Intelligence?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "ChatGPT.",
+      "time": "7.60s"
+    },
+    "graph_rag": {
+      "answer": "ChatGPT được tích hợp vào Apple Intelligence.",
+      "time": "6.17s"
+    }
+  },
+  {
+    "id": 9,
+    "question": "Sam Altman có mối liên hệ gì với Y Combinator và Reddit?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Sam Altman từng là đối tác bán thời gian của Y Combinator (2011), sau đó được bổ nhiệm làm Chủ tịch (2014) và sau đó là Chủ tịch của Tập đoàn YC cho đến khi chuyển sang tập trung vào OpenAI (2019) và ...",
+      "time": "17.12s"
+    },
+    "graph_rag": {
+      "answer": "- **Với Reddit:** Sam Altman đã đầu tư vào Reddit (mối quan hệ INVESTED_IN).  \n- **Với Y Combinator:** Trong đồ thị không có quan hệ trực tiếp giữa Sam Altman và Y Combinator; chỉ có mục “Sam Altman f...",
+      "time": "6.19s"
+    }
+  },
+  {
+    "id": 10,
+    "question": "Những startup nào trong danh mục đầu tư của Sam Altman có liên quan đến AI?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Trong danh mục đầu tư của Sam Altman, startup **Vicarious** là công ty có liên quan trực tiếp đến trí tuệ nhân tạo (AI).",
+      "time": "9.25s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện.",
+      "time": "10.28s"
+    }
+  },
+  {
+    "id": 11,
+    "question": "Google Search cạnh tranh với những công cụ tìm kiếm nào tại Việt Nam?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Tại Việt Nam, Google Search phải cạnh tranh với các công cụ tìm kiếm nội địa như **Cốc Cốc**, **Sóc Bay** và **La bàn**.",
+      "time": "18.94s"
+    },
+    "graph_rag": {
+      "answer": "Theo đồ thị, công cụ tìm kiếm **Baidu** là đối thủ cạnh tranh với Google Search. (Không có thông tin khác về các công cụ tìm kiếm cạnh tranh tại Việt Nam trong dữ liệu được cung cấp.)",
+      "time": "5.74s"
+    }
+  },
+  {
+    "id": 12,
+    "question": "Elon Musk rời OpenAI năm nào?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Elon Musk rời hội đồng quản trị của OpenAI vào năm 2018.",
+      "time": "7.48s"
+    },
+    "graph_rag": {
+      "answer": "Elon Musk rời OpenAI vào năm **2018**.",
+      "time": "4.06s"
+    }
+  },
+  {
+    "id": 13,
+    "question": "Nhà sáng lập nào của OpenAI cũng từng là chủ tịch Y Combinator?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "Samuel H. Altman (Sam Altman).",
+      "time": "7.14s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện.",
+      "time": "9.24s"
+    }
+  },
+  {
+    "id": 14,
+    "question": "Trí tuệ nhân tạo là gì?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag",
+    "flat_rag": {
+      "answer": "Trí tuệ nhân tạo (AI) là khả năng của các hệ thống máy tính thực hiện các nhiệm vụ liên quan đến trí thông minh của con người—như học tập, suy luận, giải quyết vấn đề, nhận thức và đưa ra quyết định—v...",
+      "time": "9.31s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện để trả lời câu hỏi.",
+      "time": "2.75s"
+    }
+  },
+  {
+    "id": 15,
+    "question": "Công cụ tìm kiếm hoạt động như thế nào?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag",
+    "flat_rag": {
+      "answer": "Công cụ tìm kiếm thu thập (crawl) các trang web, tạo chỉ mục (index) và sau đó phân tích ngôn ngữ của người dùng – ví dụ như khả năng xử lý tiếng Việt của Cốc Cốc (phân tách từ, nhận dạng dấu, âm tiết...",
+      "time": "24.87s"
+    },
+    "graph_rag": {
+      "answer": "Công cụ tìm kiếm là một phần mềm – máy truy tìm dữ liệu trực tuyến – sử dụng cơ sở dữ liệu cực lớn để tra cứu và trả về thông tin người dùng yêu cầu.",
+      "time": "5.23s"
+    }
+  },
+  {
+    "id": 16,
+    "question": "GPT là gì?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag",
+    "flat_rag": {
+      "answer": "GPT (Generative Pre‑Training) là một họ mô hình ngôn ngữ AI do OpenAI phát triển, được huấn luyện trên lượng lớn dữ liệu văn bản để hiểu và sinh ra ngôn ngữ. Các phiên bản nổi bật bao gồm GPT‑3, GPT‑4...",
+      "time": "9.26s"
+    },
+    "graph_rag": {
+      "answer": "GPT là các mô hình ngôn ngữ dựa trên kiến trúc transformer, được huấn luyện trước, cho phép tạo ra văn bản mạch lạc, tự nhiên; xuất hiện năm 2019.",
+      "time": "4.95s"
+    }
+  },
+  {
+    "id": 17,
+    "question": "Học máy khác gì học sâu?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag",
+    "flat_rag": {
+      "answer": "Học máy (machine learning) là nhóm các phương pháp thống kê‑hình thức, bao gồm hệ chuyên gia, lập luận theo tình huống, mạng Bayes…; chúng dựa trên phân tích dữ liệu và các mô hình truyền thống.  \nHọc...",
+      "time": "13.41s"
+    },
+    "graph_rag": {
+      "answer": "Học máy là lĩnh vực nghiên cứu chung, tập trung vào việc xây dựng các chương trình tự động cải thiện hiệu suất. Học sâu là một **nhánh của học máy**, chuyên sử dụng mạng nơ‑ron nhân tạo (và thường dùn...",
+      "time": "4.46s"
+    }
+  },
+  {
+    "id": 18,
+    "question": "Sora là gì và do ai phát triển?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag",
+    "flat_rag": {
+      "answer": "The provided context does not contain information about what “Sora” is or who developed it.",
+      "time": "8.49s"
+    },
+    "graph_rag": {
+      "answer": "Sora là một mô hình (model) được phát triển và phát hành bởi OpenAI.",
+      "time": "3.32s"
+    }
+  },
+  {
+    "id": 19,
+    "question": "Kể tên các sản phẩm chính của OpenAI và cho biết mỗi sản phẩm ra đời năm nào?",
+    "category": "lai",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "- **GPT‑2** – công bố lần đầu vào tháng 2 năm 2019.  \n- **GPT‑3** – mô tả lần đầu vào tháng 5 năm 2020.  \n- **GPT‑4** – ra mắt ngày 14 tháng 3 năm 2023.  \n- **Sora** (mô hình chuyển văn bản thành vide...",
+      "time": "15.70s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện trong phần Graph context để liệt kê các sản phẩm chính của OpenAI và năm ra đời của chúng.",
+      "time": "7.73s"
+    }
+  },
+  {
+    "id": 20,
+    "question": "AI ảnh hưởng đến những lĩnh vực nào và công ty nào dẫn đầu trong từng lĩnh vực?",
+    "category": "lai",
+    "expected_strength": "graph_rag",
+    "flat_rag": {
+      "answer": "**Các lĩnh vực mà AI đang ảnh hưởng (theo nội dung trên) và công ty/đơn vị dẫn đầu trong mỗi lĩnh vực**\n\n| Lĩnh vực ảnh hưởng | Công ty / đơn vị dẫn đầu (theo ngữ cảnh) |\n|-------------------|--------...",
+      "time": "23.76s"
+    },
+    "graph_rag": {
+      "answer": "Không đủ dữ kiện trong phần Graph context để xác định các lĩnh vực mà AI ảnh hưởng và công ty nào dẫn đầu trong từng lĩnh vực.",
+      "time": "75.08s"
+    }
+  }
+]

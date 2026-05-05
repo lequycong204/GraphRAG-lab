@@ -1,0 +1,53 @@
+{
+  "question": "AI ảnh hưởng đến những lĩnh vực nào và công ty nào dẫn đầu trong từng lĩnh vực?",
+  "nodes": [
+    "AI"
+  ],
+  "graph_context": [
+    {
+      "start_node": "AI",
+      "neighbors": [
+        {
+          "node": "2012",
+          "depth": 1,
+          "relationship": "FUNDING_INCREASED_AFTER",
+          "direction": "outgoing",
+          "metadata": {
+            "start_char": 2300,
+            "predicate": "FUNDING_INCREASED_AFTER",
+            "chunk_index": 2,
+            "end_char": 4800,
+            "source_file": "data/AI.md"
+          }
+        },
+        {
+          "node": "Trí tuệ nhân tạo",
+          "depth": 1,
+          "relationship": "HAS_ABBREVIATION",
+          "direction": "incoming",
+          "metadata": {
+            "start_char": 0,
+            "predicate": "HAS_ABBREVIATION",
+            "chunk_index": 1,
+            "end_char": 2500,
+            "source_file": "data/AI.md"
+          }
+        },
+        {
+          "node": "assembly line production jobs",
+          "depth": 1,
+          "relationship": "CAN_REPLACE",
+          "direction": "outgoing",
+          "metadata": {
+            "start_char": 23000,
+            "predicate": "CAN_REPLACE",
+            "chunk_index": 11,
+            "end_char": 25500,
+            "source_file": "data/AI.md"
+          }
+        }
+      ]
+    }
+  ],
+  "answer": "Không đủ dữ kiện trong đồ thị để trả lời câu hỏi này."
+}

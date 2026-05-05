@@ -1,3 +1,7 @@
 requests
 beautifulsoup4
 markdownify
+neo4j
+openai
+chromadb
+sentence-transformers
