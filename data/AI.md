@@ -1,0 +1,134 @@
+Trí tuệ nhân tạo (tiếng Anh: Artificial intelligence, viết tắt là AI) là khả năng của các hệ thống máy tính thực hiện các nhiệm vụ liên quan đến trí thông minh của con người, như học tập, suy luận, giải quyết vấn đề, nhận thức và đưa ra quyết định. Đây là một lĩnh vực nghiên cứu thuộc khoa học máy tính tập trung phát triển và nghiên cứu các phương pháp và phần mềm giúp máy móc có thể nhận thức môi trường xung quanh, cũng như sử dụng học tập và trí tuệ để thực hiện hành động nhằm tối đa hóa khả năng đạt được các mục tiêu đã định.
+Các ứng dụng nổi bật của AI bao gồm công cụ tìm kiếm web tiên tiến (ví dụ: Google Tìm kiếm); hệ thống đề xuất (được sử dụng bởi YouTube, Amazon và Netflix); trợ lý ảo (ví dụ: Trợ lý Google, Siri và Alexa); xe tự lái (ví dụ: Waymo); công cụ sáng tạo và nội dung tạo sinh (ví dụ: mô hình ngôn ngữ và nghệ thuật AI); cùng khả năng chơi và phân tích vượt trội hơn con người trong các trò chơi chiến lược (ví dụ: cờ vua và cờ vây). Tuy nhiên, nhiều ứng dụng AI không được nhận diện là AI: "Rất nhiều công nghệ AI đỉnh cao đã được tích hợp vào các ứng dụng thông thường, thường không còn được gọi là AI vì một khi thứ gì đó trở nên đủ hữu ích và phổ biến, nó không còn được dán nhãn AI nữa."
+Nhiều phân ngành trong nghiên cứu trí tuệ nhân tạo tập trung vào các mục tiêu cụ thể và sử dụng những công cụ đặc thù. Các mục tiêu truyền thống của nghiên cứu AI bao gồm học tập, lập luận, biểu diễn tri thức, lập kế hoạch, xử lý ngôn ngữ tự nhiên, nhận thức và hỗ trợ robot. Để đạt được những mục tiêu đó, các nhà nghiên cứu AI đã ứng dụng và tích hợp đa dạng kỹ thuật, như tìm kiếm và tối ưu hóa toán học, logic hình thức, mạng nơ-ron nhân tạo, cùng các phương pháp dựa trên thống kê, nghiên cứu hoạt động và kinh tế học. Ngoài ra, AI còn kế thừa kiến thức từ tâm lý học, ngôn ngữ học, triết học, khoa học thần kinh và nhiều lĩnh vực khác. Một số công ty như OpenAI, Google DeepMind và Meta, đang đặt mục tiêu phát triển trí tuệ nhân tạo tổng quát (AGI)—một dạng AI có khả năng thực hiện hầu hết mọi nhiệm vụ nhận thức ở mức độ ngang bằng hoặc vượt trội so với con người.
+Trí tuệ nhân tạo ban đầu được thành lập như một ngành học thuật vào năm 1956, và lĩnh vực này đã trải qua nhiều chu kỳ lạc quan trong suốt lịch sử, xen kẽ với nó là những giai đoạn thất vọng và mất nguồn tài trợ, được gọi là mùa đông AI. Nguồn tài trợ và sự quan tâm dần tăng mạnh sau năm 2012 khi các bộ xử lý đồ họa (GPU) bắt đầu được sử dụng để tăng tốc mạng nơ-ron và kỹ năng học sâu dần vượt trội hơn so với các kỹ thuật AI trước đó. Sự tăng trưởng này tiếp tục tăng tốc sau năm 2017 nhờ kiến trúc transformer. Trong những năm 2020, sự xuất hiện của trí tuệ nhân tạo tạo sinh tiên tiến đã trở nên nổi tiếng, đánh dấu giai đoạn tiến bộ nhanh chóng của lĩnh vực này với tên gọi là cơn sốt AI. Trí tuệ nhân tạo tạo sinh với khả năng tạo ra cũng như chỉnh sửa nội dung đã dẫn đến nhiều hậu quả ngoài ý muốn ở hiện tại. Những lo ngại về đạo đức cũng được nhắc đến về ảnh hưởng lâu dài của AI và những rủi ro tồn vong tiềm tàng, từ đó thúc đẩy các cuộc thảo luận về chính sách quản lý nhằm đảm bảo tính an toàn và lợi ích của công nghệ này.
+Mục đích
+Vấn đề tổng quát của việc mô phỏng (hay tạo ra) khả năng trí tuệ đã được chia thành các bài toán con. Những bài toán này bao gồm các đặc tính hoặc khả năng cụ thể mà các nhà nghiên cứu kỳ vọng về một hệ thống thông minh cần trình diện. Các đặc tính được mô tả dưới đây đã nhận được nhiều sự quan tâm nhất và bao quát được phạm vi nghiên cứu AI.
+Suy luận và giải quyết vấn đề
+Các nhà nghiên cứu từ thời kỳ đầu đã phát triển những thuật toán mô phỏng quá trình suy luận từng bước mà con người sử dụng khi giải các câu đố hay thực hiện những suy diễn logic. Đến cuối những năm 1980 và 1990, các phương pháp xử lý thông tin không chắc chắn hoặc không đầy đủ đã được phát triển bằng cách sử dụng các khái niệm từ lý thuyết xác suất và kinh tế học.
+Nhiều thuật toán trong số này không đủ khả năng để giải quyết các bài toán suy luận quy mô lớn vì chúng gặp phải hiện tượng "bùng nổ tổ hợp": về cơ bản, các thuật toán sẽ trở nên chậm đi theo cấp số nhân khi bài toán được phát triển. Ngay cả con người cũng hiếm khi sử dụng phương pháp suy diễn từng bước mà những nghiên cứu AI thời kỳ đầu có thể mô phỏng. Chúng ta giải quyết phần lớn vấn đề bằng những phán đoán trực giác nhanh chóng. Việc đạt được khả năng suy luận chính xác và hiệu quả vẫn là một bài toán chưa có lời giải.
+Biểu diễn tri thức
+Biểu diễn tri thức và kỹ thuật xử lý tri thức đóng vai trò then chốt trong việc trang bị cho các hệ thống AI khả năng trả lời câu hỏi một cách thông minh và suy luận về các hiện tượng trong thế giới thực. Những phương pháp biểu diễn tri thức mang tính hình thức này không chỉ được ứng dụng trong lập chỉ mục và truy xuất nội dung, mà còn giữ vai trò quan trọng trong việc diễn giải bối cảnh, hỗ trợ quyết định trong lĩnh vực y học lâm sàng, khám phá tri thức từ cơ sở dữ liệu lớn, (tức là khai thác những suy luận có ý nghĩa và khả thi về mặt hành động), cùng nhiều lĩnh vực chuyên sâu khác.
+Cơ sở tri thức là tập hợp tri thức được cấu trúc theo cách mà các hệ thống máy tính có thể hiểu và vận dụng. Một bản thể học trong ngữ cảnh này là hệ thống các đối tượng, khái niệm, thuộc tính và mối quan hệ được xác định trong phạm vi một lĩnh vực tri thức cụ thể. Để trở nên hữu ích, cơ sở tri thức cần có khả năng biểu diễn một cách rõ ràng và nhất quán các thực thể như đối tượng, thuộc tính, phân loại và mối quan hệ giữa các đối tượng; đồng thời bao hàm cả các tình huống, sự kiện, trạng thái và yếu tố thời gian; các mối quan hệ nhân quả; tri thức bậc hai (tức là kiến thức về tri thức, những gì ta biết về hiểu biết của người khác); và lý luận mặc định (tức những giả định được con người chấp nhận là đúng cho đến khi có bằng chứng bác bỏ, và vẫn được xem là đúng trong nhiều tình huống thay đổi); Ngoài ra, cơ sở tri thức còn phải bao phủ được nhiều chiều cạnh khác nhau của tri thức, đáp ứng yêu cầu của các lĩnh vực chuyên sâu và ngữ cảnh ứng dụng đa dạng.
+Một trong những thách thức lớn nhất trong biểu diễn tri thức nằm ở độ rộng bao phủ của kiến thức thông thường (tập hợp khổng lồ các tri thức nguyên tử mà một người bình thường nắm giữ trong đời sống hằng ngày); Không chỉ đồ sộ về số lượng, phần lớn loại tri thức này còn tồn tại dưới dạng phi biểu tượng (tức không được mã hóa rõ ràng thành các "sự kiện" hay "mệnh đề" mà con người có thể dễ dàng diễn đạt bằng ngôn ngữ tự nhiên). Bên cạnh đó, quá trình thu thập và chuẩn hóa tri thức phục vụ cho các ứng dụng AI cũng đặt ra nhiều thách thức về cả quy mô, độ chính xác và tính phù hợp với ngữ cảnh ứng dụng cụ thể.
+Lập kế hoạch và ra quyết định
+"Tác nhân" được hiểu là bất kỳ thực thể nào có khả năng nhận thức và thực hiện hành động trong thế giới. Một tác nhân lý trí là tác nhân sở hữu mục tiêu hoặc sở thích nhất định, và hành động nhằm hiện thực hóa những mục tiêu hoặc thỏa mãn sở thích đó. Trong lĩnh vực lập kế hoạch tự động, tác nhân được định hướng bởi một mục tiêu cụ thể. Ngược lại, trong bối cảnh ra quyết định tự động, tác nhân được cho là có những sở thích – tức là một số trạng huống mà nó mong muốn tham gia, và những trạng huống khác mà nó tìm cách tránh né. Để biểu thị mức độ ưa thích đối với từng trạng huống, tác nhân gán cho mỗi trạng huống một giá trị số, gọi là tiện ích. Khi đối mặt với các hành động khả thi, tác nhân có thể tính toán tiện ích kỳ vọng của từng hành động, tức là giá trị trung bình của tiện ích các kết quả có thể xảy ra, có xét đến xác suất tương ứng của mỗi kết quả. Dựa trên phép tính này, tác nhân sẽ lựa chọn hành động có tiện ích kỳ vọng cao nhất, nhằm tối ưu hóa mức độ thỏa mãn sở thích của mình.
+Trong kế hoạch cổ điển, tác nhân được giả định là biết một cách chính xác hệ quả của mọi hành động mà nó có thể thực hiện. Tuy nhiên, trong phần lớn các bài toán thực tế, tác nhân thường phải đối mặt với sự bất định: nó có thể không nắm rõ tình trạng hiện tại của môi trường (nghĩa là môi trường không xác định hoặc không thể quan sát đầy đủ), và cũng không chắc chắn về kết quả của mỗi hành động khả thi (tức môi trường không mang tính quyết định). Trong bối cảnh đó, tác nhân buộc phải lựa chọn hành động dựa trên các suy luận xác suất, đồng thời liên tục đánh giá lại tình hình sau mỗi hành động để xác định mức độ hiệu quả của hành động vừa thực hiện.
+Trong một số bài toán, sở thích của tác nhân không hoàn toàn chắc chắn, đặc biệt khi có sự tham gia của các tác nhân khác hoặc con người. Những sở thích này có thể được rút trích thông qua học tập, chẳng hạn như học tăng cường ngược, hoặc tác nhân có thể chủ động tìm kiếm thông tin nhằm cải thiện hiểu biết của mình về sở thích nội tại. Trong bối cảnh đó, lý thuyết giá trị thông tin đóng vai trò quan trọng trong việc đánh giá lợi ích của các hành động khám phá hoặc thử nghiệm. Tuy nhiên, không gian hành động và trạng huống có thể xảy ra trong tương lai thường có quy mô và độ phức tạp cao, đến mức không thể xử lý một cách khả thi, buộc tác nhân phải đưa ra quyết định và đánh giá hiệu quả của hành động dưới điều kiện bất định về kết quả.
+Quá trình quyết định Markov bao gồm một mô hình chuyển trạng thái, mô tả xác suất mà một hành động cụ thể sẽ làm thay đổi trạng thái hệ thống theo một cách nhất định, cùng với một hàm phần thưởng dùng để xác định tiện ích tương ứng của mỗi trạng thái cũng như chi phí tương ứng của mỗi hành động. Một policy là một ánh xạ từ mỗi trạng thái có thể xảy ra đến một hành động mà tác nhân sẽ thực hiện trong trạng thái đó. Policy tối ưu có thể được tính toán một cách hệ thống (ví dụ, thông qua phép lặp policy), có thể được thiết lập bằng các kỹ thuật heuristic, hoặc có thể được học từ dữ liệu tương tác với môi trường.
+Lý thuyết trò chơi nghiên cứu hành vi hợp lý của nhiều tác nhân tương tác lẫn nhau, và đóng vai trò nền tảng trong các hệ thống trí tuệ nhân tạo có nhiệm vụ ra quyết định trong môi trường có sự hiện diện của các tác nhân khác.
+Học hỏi
+Học máy là lĩnh vực nghiên cứu tập trung vào việc xây dựng các chương trình có khả năng tự động cải thiện hiệu suất thực hiện một nhiệm vụ cụ thể thông qua kinh nghiệm. Đây không phải là một ý tưởng mới xuất hiện trong thời đại hiện nay mà ngược lại, nó đã là một thành phần cốt lõi của AI ngay từ những bước đi đầu tiên của lĩnh vực này.
+Máy học bao gồm nhiều hình thức tiếp cận khác nhau. Trong đó, học không giám sát hướng đến việc phân tích dòng dữ liệu chưa được gán nhãn nhằm nhận diện các quy luật tiềm ẩn và đưa ra suy luận mà không cần đến hướng dẫn trực tiếp. Trái lại, học có giám sát yêu cầu dữ liệu huấn luyện phải được dán nhãn với kết quả mong đợi, qua đó mô hình học cách liên kết đầu vào với đầu ra. Phương pháp này bao gồm hai dạng tiêu biểu: phân loại, khi mục tiêu là xác định đầu vào thuộc nhóm nào; và hồi quy, khi nhiệm vụ là ước lượng một hàm số liên tục từ dữ liệu đầu vào.
+Học tăng cường là phương pháp trong đó tác nhân học thông qua tương tác với môi trường, được thưởng khi hành động dẫn đến phản hồi tích cực và bị phạt khi kết quả không mong muốn, từ đó dần hình thành chiến lược lựa chọn hành vi tối ưu. Học chuyển giao đề cập đến khả năng ứng dụng tri thức đã học từ một bài toán vào bối cảnh mới, góp phần nâng cao hiệu quả học tập trong môi trường biến đổi. Trong khi đó, học sâu là một nhánh của học máy, sử dụng mạng nơ-ron nhân tạo lấy cảm hứng từ cấu trúc sinh học, cho phép xử lý dữ liệu đầu vào theo tầng lớp và có thể tích hợp với mọi hình thức học kể trên để gia tăng năng lực biểu đạt và khái quát hóa.
+Lý thuyết học tập tính toán cung cấp khung phân tích hình thức để đánh giá người học, không chỉ dựa trên khả năng đạt được kết quả chính xác, mà còn xét đến các tiêu chí như độ phức tạp tính toán, độ phức tạp mẫu, tức lượng dữ liệu cần thiết để học hiệu quả, và những chuẩn mực tối ưu hóa khác phản ánh chi phí và hiệu năng trong quá trình học.
+Xử lý ngôn ngữ tự nhiên
+Xử lý ngôn ngữ tự nhiên (NLP) là lĩnh vực giúp các chương trình máy tính có khả năng đọc hiểu, tạo lập và tương tác bằng ngôn ngữ của con người. Một số ứng dụng tiêu biểu của NLP bao gồm nhận dạng và tổng hợp giọng nói, dịch máy, trích xuất và truy hồi thông tin, cũng như hệ thống trả lời câu hỏi.
+Những công trình nghiên cứu ban đầu, vốn dựa trên ngữ pháp tạo sinh và mạng ngữ nghĩa do Noam Chomsky đề xuất, đã gặp nhiều hạn chế trong việc phân biệt nghĩa của từ trừ khi bị giới hạn trong những phạm vi nhỏ được gọi là " thế giới vi mô " (một hệ quả của vấn đề thiếu hụt kiến thức thông thường). Trong khi đó, Margaret Masterman cho rằng chính ý nghĩa, chứ không phải ngữ pháp, mới là chìa khóa để hiểu ngôn ngữ. Bà lập luận rằng từ điển đồng nghĩa, thay vì các từ điển chuyên ngành, nên đóng vai trò làm nền tảng cho cấu trúc của ngôn ngữ tính toán.
+Các kỹ thuật học sâu hiện đại trong xử lý ngôn ngữ tự nhiên bao gồm phương pháp nhúng từ, giúp biểu diễn từ ngữ dưới dạng các vectơ phản ánh đặc trưng ngữ nghĩa, transformer (kiến trúc học sâu sử dụng cơ chế chú ý), làm nền tảng cho nhiều mô hình tiên tiến; cùng với nhiều phương pháp bổ trợ khác. Từ năm 2019, sự xuất hiện của các mô hình ngôn ngữ dựa trên kiến trúc transformer và được huấn luyện trước (thường được gọi là "GPT") đã cho phép tạo ra văn bản mạch lạc, có tính tự nhiên cao. Đến năm 2023, các mô hình này đã đạt được những bước tiến vượt bậc, thể hiện năng lực ngang bằng con người trong nhiều lĩnh vực đánh giá tiêu chuẩn, bao gồm kỳ thi luật sư, bài kiểm tra SAT, GRE, cũng như nhiều ứng dụng thực tiễn khác.
+Nhận thức
+Nhận thức máy là khả năng của hệ thống máy tính trong việc tiếp nhận và xử lý dữ liệu đầu vào từ các loại cảm biến khác nhau (như Camera AI on Edge - hay còn gọi là Camera tại biên, micro, tín hiệu không dây, lidar chủ động, sonar, radar và cảm biến xúc giác), từ đó suy luận và trích xuất thông tin về các đặc tính của môi trường xung quanh. Thị giác máy tính là lĩnh vực con, nghiên cứu và phát triển các phương pháp giúp máy tính có thể phân tích, hiểu và diễn giải dữ liệu đầu vào dưới dạng hình ảnh hoặc tín hiệu thị giác.
+Lĩnh vực này bao quát nhiều hướng nghiên cứu và ứng dụng đa dạng, bao gồm nhận dạng giọng nói, phân loại và nhận dạng hình ảnh, nhận dạng khuôn mặt, nhận dạng và theo dõi vật thể, cùng với khả năng nhận thức trong hệ thống robot.
+Trí tuệ xã hội
+Tính toán cảm xúc là một lĩnh vực nghiên cứu tập trung vào việc phát triển các hệ thống có khả năng nhận biết, diễn giải, xử lý hoặc mô phỏng cảm xúc, tình cảm và tâm trạng của con người. Một số trợ lý ảo ngày nay được lập trình để giao tiếp một cách tự nhiên hay thậm chí có thể đối đáp một cách dí dỏm, giúp chúng trở nên nhạy bén hơn với những biến đổi cảm xúc trong tương tác giữa con người, hoặc hỗ trợ việc tương tác giữa người và máy tính theo những cách linh hoạt hơn.
+Tuy nhiên, điều này đôi khi khiến những người dùng thiếu hiểu biết chuyên sâu hình thành nhận thức phi thực tế về mức độ thông minh thực sự của các tác nhân máy tính hiện nay. Trong lĩnh vực tính toán cảm xúc, một số thành tựu đáng chú ý ở mức độ vừa phải bao gồm phân tích tình cảm dựa trên văn bản và, gần đây hơn, phân tích tình cảm đa phương thức. Ở hướng nghiên cứu sau, trí tuệ nhân tạo có thể phân loại và diễn giải các biểu hiện cảm xúc được thể hiện bởi đối tượng trong các đoạn video, chẳng hạn như cử chỉ, giọng nói hoặc nét mặt.
+Trí tuệ tổng quát
+Một cỗ máy được trang bị trí tuệ nhân tạo tổng quát sẽ có khả năng giải quyết nhiều loại vấn đề khác nhau với mức độ bao quát và tính linh hoạt tương tự như trí thông minh của con người.
+Kỹ thuật
+Nghiên cứu trí tuệ nhân tạo sử dụng một phổ rộng các kỹ thuật tính toán để đáp ứng những mục tiêu trên.
+Lịch sử
+Tư tưởng có khả năng sinh vật nhân tạo xuất hiện như các thiết bị kể chuyện thời cổ đại, và đã được phổ biến trong tiểu thuyết, như trong Frankenstein của Mary Shelley hay RUR (máy toàn năng Rossum) của Karel Capek.
+AI in early science fiction.
+</ref> Những nhân vật này và số phận của họ nêu ra nhiều vấn đề tương tự hiện đang được thảo luận trong đạo đức của trí tuệ nhân tạo.
+Nghiên cứu về lý trí cơ học hoặc "chính thức" bắt đầu với các nhà triết học và toán học thời cổ đại. Nghiên cứu về logic toán học đã dẫn trực tiếp đến lý thuyết tính toán của Alan Turing, người cho rằng một cỗ máy, bằng cách xáo trộn các ký hiệu đơn giản như "0" và "1", có thể mô phỏng bất kỳ hành động suy luận toán học nào có thể hiểu được. Tầm nhìn sâu sắc này, cho thấy máy tính kỹ thuật số có thể mô phỏng bất kỳ quá trình suy luận hình thức nào, đã được gọi là luận án Church-Turing. Cùng với những khám phá đồng thời về sinh học thần kinh, lý thuyết thông tin và điều khiển học, điều này khiến các nhà nghiên cứu cân nhắc khả năng xây dựng bộ não điện tử. Turing đã đề xuất rằng "nếu một con người không thể phân biệt giữa các phản hồi từ một máy và một con người, máy tính có thể được coi là 'thông minh'. Công việc đầu tiên mà bây giờ được công nhận là trí tuệ nhân tạo là thiết kế hình thức "tế bào thần kinh nhân tạo" do McCullouch và Pitts đưa ra năm 1943.
+Các trường phái trí tuệ nhân tạo
+Trí tuệ nhân tạo (AI) chia thành hai trường phái tư duy: Trí tuệ nhân tạo truyền thống và trí tuệ tính toán.
+Trí tuê nhân tạo truyền thống hầu như bao gồm các phương pháp hiện được phân loại là các phương pháp học máy (machine learning), đặc trưng bởi hệ hình thức (formalism) và phân tích thống kê. Nó còn được biết với các tên Trí tuê nhân tạo biểu tượng, Trí tuê nhân tạo logic, Trí tuê nhân tạo ngăn nắp (neat AI) và Trí tuê nhân tạo cổ điển (Goodness Old Fashioned Artificial Intelligence). (Xem thêm ngữ nghĩa học.) Các phương pháp gồm có:
+Hệ chuyên gia: áp dụng các khả năng suy luận để đạt tới một kết luận. Một hệ chuyên gia có thể xử lý các lượng lớn thông tin đã biết và đưa ra các kết luận dựa trên các thông tin đó. Clippy chương trình trợ giúp có hình cái kẹp giấy của Microsoft Office là một ví dụ. Khi người dùng gõ phím, Clippy nhận ra các xu hướng nhất định và đưa ra các gợi ý.
+Lập luận theo tình huống.
+Mạng Bayes.
+Trí tuệ tính toán nghiên cứu việc học hoặc phát triển lặp (ví dụ: tinh chỉnh tham số trong hệ thống, chẳng hạn hệ thống connectionist). Việc học dựa trên dữ liệu kinh nghiệm và có quan hệ với Trí tuệ nhân tạo phi ký hiệu, Trí tuê nhân tạo lộn xộn (scruffy AI) và tính toán mềm (soft computing). Các phương pháp chính gồm có:
+Mạng neural: các hệ thống mạnh về nhận dạng mẫu (pattern recognition).
+Hệ mờ (Fuzzy system): các kỹ thuật suy luận không chắc chắn, đã được sử dụng rộng rãi trong các hệ thống công nghiệp hiện đại và các hệ thống quản lý sản phẩm tiêu dùng.
+Tính toán tiến hóa (Evolutionary computation): ứng dụng các khái niệm biology như quần thể, biến dị và đấu tranh sinh tồn để sinh các lời giải ngày càng tốt hơn cho bài toán. Các phương pháp này thường được chia thành các thuật toán tiến hóa (ví dụ thuật toán gene) và trí tuệ bầy đàn (swarm intelligence) (chẳng hạn hệ kiến).
+Trí tuê nhân tạo dựa hành vi (Behavior based AI): một phương pháp module để xây dựng các hệ thống Trí tuê nhân tạo bằng tay.
+Người ta đã nghiên cứu các hệ thống thông minh lai (hybrid intelligent system), trong đó kết hợp hai trường phái này. Các luật suy diễn của hệ chuyên gia có thể được sinh bởi mạng neural hoặc các luật dẫn xuất (production rule) từ việc học theo thống kê như trong kiến trúc ACT-R.
+Các phương pháp trí tuệ nhân tạo thường được dùng trong các công trình nghiên cứu khoa học nhận thức (cognitive science), một ngành cố gắng tạo ra mô hình nhận thức của con người (việc này khác với các nghiên cứu Trí tuê nhân tạo, vì Trí tuê nhân tạo chỉ muốn tạo ra máy móc thực dụng, không phải tạo ra mô hình về hoạt động của bộ óc con người).
+Triết lý Trí tuệ nhân tạo
+Trí tuệ nhân tạo mạnh hay Trí tuệ nhân tạo yếu, đó vẫn là một chủ đề tranh luận nóng hổi của các nhà triết học Trí tuệ nhân tạo. Nó liên quan tới philosophy of mind và mind-body problem. Đáng chú ý nhất là Roger Penrose trong tác phẩm The Emperor's New Mind và John Searle với thí nghiệm tư duy trong cuốn Chinese room (Căn phòng Trung Hoa) khẳng định rằng các hệ thống logic hình thức không thể đạt được nhận thức thực sự, trong khi Douglas Hofstadter trong Gödel, Escher, Bach và Daniel Dennett trong Consciousness Explained ủng hộ thuyết chức năng. Theo quan điểm của nhiều người ủng hộ Trí tuệ nhân tạo mạnh, nhận thức nhân tạo được coi là " chén thánh " của Trí tuệ nhân tạo.
+Thiết bị, hệ thống máy có trí tuệ
+Có nhiều ví dụ về các chương trình thể hiện trí thông minh ở một mức độ nào đó. Ví dụ:
+Twenty Questions - Một trò chơi 20 câu hỏi, trong đó sử dụng mạng neural
+The Start Project - một chương trình trả lời các câu hỏi bằng tiếng Anh.
+Brainboost  - một hệ thống trả lời câu hỏi khác
+Cyc, một cơ sở tri thức với rất nhiều kiến thức về thế giới thực và khả năng suy luận logic.
+Jabberwacky, một chatterbot có khả năng học
+ALICE, một chatterbot
+Alan, một chatterbot khác
+Albert One, chatterbot nhiều mặt
+ELIZA, một chương trình giả làm bác sĩ tâm lý, phát triển năm 1966
+PAM (Plan Applier Mechanism) - một hệ thống hiểu được chuyện kể, phát triển bởi John Wilensky năm 1978.
+SAM (Script applier mechanism) - một hệ thống hiểu được chuyện kể, phát triển năm 1975.
+SHRDLU - một chương trình hiểu ngôn ngữ tự nhiên, phát triển năm 1968 - 1970.
+Creatures, một trò chơi máy tính với các hoạt động nhân giống, tiến hóa các sinh vật từ mức gien trở lên, sử dụng cấu trúc sinh hóa phức tạp và các bộ não là mạng neural.
+BBC news story on the creator of Creatures latest creation. Steve Grand 's Lucy.
+AARON  - chương trình vẽ tranh, phát triển bởi Harold Cohen.
+Eurisko - một ngôn ngữ giúp giải quyết các bài toán, trong đó có sử dụng các phương pháp heuristics, gồm cả heuristics cho việc sử dụng và thay đổi các phương pháp heuristics. Phát triển năm 1978 bởi Douglas Lenat.
+X-Ray Vision for Surgeons - một nhóm nghiên cứu xử lý ảnh y học tại đại học MIT.
+Các chương trình trò chơi backgammon và cờ vây sử dụng mạng neural.
+Talk to William Shakespeare - William Shakespeare chatbot
+Chesperito - Một chat/infobot về #windows95 channel trên mang DALnet IRC.
+Drivatar, một chương trình học cách lái xe đua bằng cách xem các xe đua khác, phát triển cho trò chơi điện tử Forza Motorsport
+Tiểu Độ - một Robot có trí tuệ nhân tạo thuộc hãng Baidu từng tham gia chương trình Siêu Trí Tuệ Trung Quốc (mùa 4) và đoạt giải
+Các nhà nghiên cứu AI
+Trên thế giới có rất nhiều các nhà nghiên cứu trí tuệ nhân tạo làm việc tại hàng trăm viện nghiên cứu và công ty. Dưới đây là một số trong nhiều nhà nghiên cứu đã có đóng góp lớn:
+Alan Turing
+Boris Katz
+Doug Lenat
+Douglas Hofstadter
+Geoffrey Hinton
+John McCarthy
+Karl Sims
+Kevin Warwick
+Igor Aleksander
+Marvin Minsky
+Seymour Papert
+Maggie Boden
+Mike Brady
+Oliver Selfridge
+Raj Reddy
+Judea Pearl
+Rodney Brooks
+Roger Schank
+Terry Winograd
+Rolf Pfeifer
+Nguy cơ với loài người
+Sau khi nhà vật lý học Stephen Hawking và tỷ phú Elon Musk cảnh báo về mối đe dọa tiềm ẩn của trí tuệ nhân tạo, nhiều người vẫn cho rằng họ đã quá lo xa trong khi AI đang giúp ích rất nhiều cho cuộc sống của chúng ta. Stephen Hawking khẳng định "Trí tuệ nhân tạo có thể là dấu chấm hết cho nhân loại khi nó phát triển đến mức hoàn thiện nhất".
+Tác động đầu tiên của trí tuệ nhân tạo mà chúng ta có thể dễ dàng nhận thấy chính là tác động mạnh đến con người trong các lĩnh vực đời sống như: việc làm, giải trí,... nâng cao hơn là suy luận, đào tạo. Nếu AI phát triển hoàn thiện, nó có khả năng thay thế con người trong các công việc trí tuệ như chăm sóc sức khỏe, phục vụ, sản xuất theo dây chuyền tự động, công việc văn phòng.... Hoặc cũng có thể vấn đề thất nghiệp sẽ được AI giải quyết một cách mà chúng ta không thể hình dung được.
+Theo Bill Joy, người đồng sáng lập và Giám đốc khoa học của Sun Microsystems: " Có một vấn đề rất lớn đối với xã hội loài người khi AI trở nên phổ biến, đó là chúng ta sẽ bị lệ thuộc. Khi AI trở nên hoàn thiện và thông minh hơn, chúng ta sẽ cho phép mình nghe theo những quyết định của máy móc, vì đơn giản là các cỗ máy luôn đưa ra quyết định chính xác hơn con người. "
+Theo Andrew Maynard, nhà vật lý và là người giám đốc Trung tâm nghiên cứu rủi ro khoa học tại đại học Michigan: " Khi AI kết hợp với công nghệ nano có thể là bước tiến đột phá của khoa học, nhưng cũng có thể là mối đe dọa lớn nhất đối với con người. Trong khi Bộ quốc phòng Mỹ đang nghiên cứu dự án Autonomous Tactical Robot (EATR), trong đó các robot sẽ sử dụng công nghệ nano để hấp thụ năng lượng bằng những chất hữu cơ có thể là cơ thể con người. Đó thực sự là mối đe dọa lớn nhất, khi các robot nano tự tạo ra năng lượng bằng cách ăn các chất hữu cơ từ cây cối và động vật, có thể là cả con người. Nghe có vẻ giống như trong các bộ phim viễn tưởng, nhưng đó là điều hoàn toàn có thể xảy ra. Có lẽ chúng ta nên bắt đầu cẩn thận ngay từ bây giờ. "
+Nhận thức nhân tạo – một lĩnh vực trong khoa học nhận thức
+Trí tuệ nhân tạo và bầu cử – sử dụng và tác động của AI đến các cuộc bầu cử chính trị
+Phát hiện nội dung trí tuệ nhân tạo – phần mềm xác định nội dung do AI tạo ra
+Hiệp hội phát triển trí tuệ nhân tạo – AAAI
+Thuật toán lựa chọn hành vi – thuật toán lựa chọn hành động cho các tác nhân thông minh
+Tự động hóa quy trình kinh doanh – tự động hóa các quy trình kinh doanh
+Lập luận theo tình huống – quy trình giải vụ việc mới dựa trên lời giải của những vụ việc trước đó Pages displaying wikidata descriptions as a fallback
+Trí tuệ tính toán – khả năng máy tính để học một nhiệm vụ cụ thể từ dữ liệu hoặc quan sát thực nghiệm
+Bất tử số – khái niệm giả định về việc lưu trữ một tính cách dưới dạng kỹ thuật số
+Thuật toán đột sinh – thuật toán thể hiện hành vi đột sinh
+Sự nữ hoá của công nghệ AI – thiên kiến giới tính trong công nghệ số
+Thuật ngữ trí tuệ nhân tạo – danh sách các định nghĩa về thuật ngữ và khái niệm thường được sử dụng trong nghiên cứu trí tuệ nhân tạo
+Tăng cường thông minh – sử dụng công nghệ thông tin để tăng cường trí thông minh con người
+Tác nhân thông minh – tác tử phần mềm mà hoạt động tự động Pages displaying wikidata descriptions as a fallback
+Tự động hóa thông minh – Quy trình phần mềm kết hợp tự động hóa quy trình bằng robot và trí tuệ nhân tạo
+Danh sách sách về trí tuệ nhân tạo
+Danh sách tạp chí trí tuệ nhân tạo
+Danh sách dự án trí tuệ nhân tạo
+Tải trí não lên máy tính – quy trình giả định mô phỏng não bộ bằng kỹ thuật số
+Trí tuệ hữu cơ – sử dụng tế bào não để tính toán thông minh
+Tự động hóa quy trình bằng robot – hình thức công nghệ tự động hóa quy trình kinh doanh
+The Last Day – tiểu thuyết khoa học xứ Wales của Owain Owain
+Máy tính Wetware – máy tính được cấu tạo từ vật liệu hữu cơ
+DARWIN EU - một sáng kiến của Liên minh châu Âu do Cơ quan Y tế Châu Âu (EMA) phối hợp thực hiện nhằm tạo ra và sử dụng bằng chứng thực tế (RWE) để hỗ trợ việc đánh giá và giám sát thuốc trên toàn châu Âu.
+Trí tuệ nhân tạo trong các dự án Wikimedia - Sử dụng trí tuệ nhân tạo để phát triển Wikipedia và các dự án Wikimedia khác

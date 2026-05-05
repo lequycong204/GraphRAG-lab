@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "OpenAI được thành lập bởi những ai?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 2,
+    "question": "Năm nào OpenAI được thành lập?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 3,
+    "question": "Sam Altman làm việc tại những tổ chức nào?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 4,
+    "question": "Những công ty nào do Sam Altman sáng lập?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 5,
+    "question": "Elon Musk có liên quan đến tổ chức nào trong lĩnh vực AI?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 6,
+    "question": "OpenAI có hợp tác với những công ty nào?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 7,
+    "question": "Microsoft đầu tư bao nhiêu vào OpenAI?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 8,
+    "question": "Sản phẩm nào của OpenAI được tích hợp vào Apple Intelligence?",
+    "category": "quan_he",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 9,
+    "question": "Sam Altman có mối liên hệ gì với Y Combinator và Reddit?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 10,
+    "question": "Những startup nào trong danh mục đầu tư của Sam Altman có liên quan đến AI?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 11,
+    "question": "Google Search cạnh tranh với những công cụ tìm kiếm nào tại Việt Nam?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 12,
+    "question": "Elon Musk rời OpenAI năm nào?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 13,
+    "question": "Nhà sáng lập nào của OpenAI cũng từng là chủ tịch Y Combinator?",
+    "category": "nhieu_buoc",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 14,
+    "question": "Trí tuệ nhân tạo là gì?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag"
+  },
+  {
+    "id": 15,
+    "question": "Công cụ tìm kiếm hoạt động như thế nào?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag"
+  },
+  {
+    "id": 16,
+    "question": "GPT là gì?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag"
+  },
+  {
+    "id": 17,
+    "question": "Học máy khác gì học sâu?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag"
+  },
+  {
+    "id": 18,
+    "question": "Sora là gì và do ai phát triển?",
+    "category": "khai_niem",
+    "expected_strength": "flat_rag"
+  },
+  {
+    "id": 19,
+    "question": "Kể tên các sản phẩm chính của OpenAI và cho biết mỗi sản phẩm ra đời năm nào?",
+    "category": "lai",
+    "expected_strength": "graph_rag"
+  },
+  {
+    "id": 20,
+    "question": "AI ảnh hưởng đến những lĩnh vực nào và công ty nào dẫn đầu trong từng lĩnh vực?",
+    "category": "lai",
+    "expected_strength": "graph_rag"
+  }
+]
